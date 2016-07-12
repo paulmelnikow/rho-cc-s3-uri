@@ -9,6 +9,13 @@ Check Amazon S3 URIs with [rho-contracts][].
 Usage
 -----
 
+You must use the Body Labs package, `rho-contracts-fork`:
+```js
+  "dependencies": {
+    "rho-contracts-fork": "^1.3.0"
+  }
+```
+
 ```js
 
 var cc = {};
@@ -27,7 +34,7 @@ Installation
 ------------
 
 ```sh
-npm install rho-contracts rho-cc-s3-uri
+npm install rho-contracts-fork rho-cc-s3-uri
 ```
 
 

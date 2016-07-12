@@ -1,5 +1,5 @@
 var _ = require('underscore');
-var c = require('rho-contracts');
+var c = require('rho-contracts-fork');
 var s3BucketName = require('rho-cc-s3-bucket-name');
 var url = require('url');
 
